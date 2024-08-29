@@ -1,0 +1,16 @@
+{
+    "configurations": [
+		{
+			"name": "Launch",
+			"type": "cppdbg",
+			"request": "launch",
+			"cwd": "${workspaceFolder}/../cpe2-test-proj",
+			"program": "${workspaceFolder}/cpe2-utils",
+			"args": [
+				"install","cpe2-extension-flowchart"
+			],
+			"MIMode": "lldb"
+		}
+
+    ],
+}
